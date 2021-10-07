@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* this is how you make a note in css oop */
+
+.sideNav {
+  margin: 0;
+  padding-left: 4%;
+  padding-right: 4%;
+  width: 130px;
+  background-color:#2D2D2D;
+  position: absolute;
+  height: 490px;
+color: #FFFFFF;
+	z-index: 10;
+}
+
+.sideNav a {
+  display: block;
+  color: #93278f;
+  padding-left: 0px;
+	border: 30px solid transparent;
+  text-decoration: none;
+	font-size: 32px;
+	text-align: center;
+	padding-top:12px;
+}
+
+.folio {
+	padding-top: 5px;
+	left:10px;
+}
+.art {
+	padding-top: 5px;
+
+}
+.contact {
+	padding-top: 5px;
+	padding-right: 7px;
+}
+.press {
+	padding-top: 5px;
+}
+
+.header {
+	padding-top: 26px;
+	padding-left: 250px;
+	background: #272727;
+	padding-bottom:20px;
+}
+
+.header a {
+	font-size: 60px;
+	font-family:Bahnschrift, "Bahnschrift SemiBold";
+	text-decoration: none;
+	background-color:white;
+	color:#93278f;
+	border: 5px solid transparent;
+}
+
+.header h {
+	color: white;
+	font-size: 30px;
+	font-family:Bahnschrift, "Bahnschrift SemiBold";
+	position: relative;
+	padding-top:60px;
+	
+}
+
+body {
+  margin: 0;
+  background-color: #333333;
+  font-family:Bahnschrift, "Bahnschrift SemiBold";
+	color: #FFFFFF;
+}
+.folioTitles {
+	color: white;
+}
+
+a {
+	color: white;
+}
+
+.profileImage img {
+	height: 220px;
+	width: 240px;
+	padding-left: 22%;
+	position: absolute;
+	padding-top: 3%;
+	z-index: 5;
+	
+}
+.homeBodyText p {
+	font-size: 30px;
+	padding-left: 46%;
+	padding-right: 6%;
+	padding-top: 0.5%;
+	position: relative, top;
+}
+
+.diamondIcon img {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	padding-left: 60px;
+	padding-top: 15px;
+	
+}
+
+footer {
+	font-family:Bahnschrift, "Bahnschrift SemiBold";
+	color:white;
+	text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.bodyText {
+	padding-left: 260px;
+	padding-right: 50px;
+	padding-top: 30px;
+}
+.bodyText h {
+	font-size: 18px;
+}
+.bodyText img {
+	height: 350px;
+}
+
+.artImages {
+	padding-left:240px;
+	padding-top:40px;
+}
+.artImages img {
+	border: 10px solid transparent;
+}
+
+.folioTitles a {
+	text-decoration: none;
+    position: relative;
+	font-size:20px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:#93278f;
+	background:white;
+	white-space: nowrap;
+}
+
+.TitleImages img {
+	border: 10px solid transparent;
+}
+
+.container1 img {
+	padding-left: 240px;
+	padding-right:0px;
+	padding-top:30px;
+	z-index: 5;
+}
+
+.container1 a {
+	position: absolute;
+  	top: 87%;
+  	left: 28.5%;
+  	transform: translate(-50%, -50%);
+	z-index: 10;
+}
+
+.container2 img {
+	padding-left: 480px;
+	padding-right:0px;
+	padding-top:50px;
+	position:absolute;
+	top: 134px;
+	z-index: 5;
+}
+
+.container2 a {
+	position: absolute;
+  	top: 87%;
+  	left: 47%;
+  	transform: translate(-50%, -50%);
+	z-index: 10;
+}
+
+.container3 img {
+	padding-left: 720px;
+	padding-right:0px;
+	padding-top:50px;
+	position:absolute;
+	top: 134px;
+	z-index: 5;
+}
+
+.container3 a {
+	position: absolute;
+  	top: 87%;
+  	left: 66.5%;
+  	transform: translate(-50%, -50%);
+	z-index: 10;
+}
+
+.container4 img {
+	padding-left: 960px;
+	padding-right:0px;
+	padding-top:50px;
+	position:absolute;
+	top: 134px;
+	z-index: 5;
+}
+
+.container4 a {
+	position: absolute;
+  	top: 87%;
+  	left: 85.5%;
+  	transform: translate(-50%, -50%);
+	z-index: 10;
+}
